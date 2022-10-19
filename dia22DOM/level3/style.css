@@ -1,0 +1,50 @@
+#wrapper h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+#wrapper h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+#wrapper h3 {
+  font: size 20px;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+}
+#wrapper #Done {
+  background-color: green;
+}
+#wrapper #Ongoing {
+  background-color: yellow;
+}
+#wrapper #Coming {
+  background-color: red;
+}
+#wrapper table {
+  margin: auto;
+  width: 600px;
+  font-size: 20px;
+}
+#wrapper .collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+#wrapper .active,
+#wrapper .collapsible:hover {
+  background-color: #555;
+}
+#wrapper .content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
