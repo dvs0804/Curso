@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+
+    <title>WORLD COUNTRIES LIST</title>
+</head>
+<body>
+    <header id="countries">
+        <h2>World Countries Data</h2>
+        <h4 class="subtitle"></h4>
+        <h4 id="cantidadFiltrado" class="cantFilter"></h4>    
+    </header>
+    <main>
+        <div>
+            <input type="text" id="search" placeholder="Filter Countries">
+        </div>
+        <div id="container-buttons">
+            <button id="name">Name</button>
+            <button id="capital">Capital</button>
+            <button id="population">Population</button>
+            <button id="grafico">grafico</button>
+        </div>
+
+       
+    </main>
+    <div id="container">
+        <p id="vacio"></p>
+    </div>
+
+    <div class="wrapper">
+        <div class="graph-buttons">
+            <button id="populate">Population</button>
+            <button id="languages">Languages</button>
+            <h4 class="feedback"></h4>
+        </div>
+        <h4 class="graph-title"></h4>
+        <div class="graphs">
+            <canvas id="grafica"></canvas>
+        </div>
+    </div>
+
+
+
+    <script src="./countriesData.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
