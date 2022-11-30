@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+}
+html body header {
+  text-align: center;
+  background-color: #e4e2de;
+  width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+html body header h2 {
+  color: rgba(255, 166, 0, 0.823);
+}
+html body header .cantFilter {
+  color: rgba(255, 166, 0, 0.823);
+}
+html body main {
+  background-color: #f9f6ee;
+  width: 900px;
+  text-align: center;
+  margin: auto;
+  padding-top: 40px;
+}
+html body main .container-buttons {
+  margin-bottom: auto;
+  padding: 5px;
+}
+html body main button {
+  background-color: rgba(255, 166, 0, 0.823);
+  font-size: 15%;
+  padding: 1%;
+  border-radius: 15%;
+  border-color: rgba(255, 166, 0, 0.823);
+}
+html body main input {
+  width: 400px;
+  font-size: 120%;
+  border-radius: 20px;
+  border-color: #e4e2de;
+  padding: 10px;
+}
+html body #container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 900px;
+  margin: auto;
+  background-color: #e4e2de;
+}
+html body #container h1 {
+  color: #b5b528;
+}
+html body #container .country {
+  font-size: 7px;
+  text-align: center;
+  margin: 3%;
+  width: 100px;
+  height: 150px;
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+  color: black;
+  background-color: #f1f1f1;
+}
+html body #container .filtro {
+  display: none;
+}
+html body img {
+  width: 100%;
+  object-fit: contain;
+}
+html body p {
+  text-align: left;
+}
+html body .wrapper .graph-buttons {
+  background-color: #f7f5f5;
+  text-align: center;
+}
+html body .wrapper .graph-buttons button {
+  background-color: rgba(255, 166, 0, 0.823);
+  font-size: 15%;
+  padding: 1%;
+  border-radius: 15%;
+  border-color: rgba(255, 166, 0, 0.823);
+}
+html body .wrapper .graphs {
+  margin: auto;
+  background-color: #f5f2f2;
+  border: 1px solid #e5e2e2;
+  width: 900px;
+}
+html body .wrapper .subtitle {
+  text-align: center;
+  font-size: 100%;
+}
